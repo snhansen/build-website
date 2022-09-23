@@ -1,0 +1,14 @@
+---
+title: "Om mig"
+image: stefan.jpg
+about:
+  template: jolla
+  image-width: 20em
+  image-shape: rectangle
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/snhansen
+---
+
+About this site heh

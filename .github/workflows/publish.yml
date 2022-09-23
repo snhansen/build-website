@@ -1,0 +1,33 @@
+name: Publish
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install quarto
+        run: |
+          wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.1.251/quarto-1.1.251-linux-amd64.deb
+          sudo dpkg -i quarto-1.1.251-linux-amd64.deb
+      - name: Build website
+        run: |
+          cd www
+          quarto render
+      - name: Publish to GitHub pages
+        run: |
+          git clone https://snhansen:$TOKEN@github.com/snhansen/snhansen.github.io.git --branch main --single-branch main
+          cd main
+          git rm -r *
+          cp ../www/_site/* -r .
+          git config --local user.email "stefannygaardhansen@gmail.com"
+          git config --local user.name "Stefan Nygaard Hansen"
+          git add .
+          git commit -m "Publish website files" --amend
+          git push -f
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
