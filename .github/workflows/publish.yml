@@ -20,6 +20,7 @@ jobs:
           quarto render
       - name: Publish to GitHub pages
         run: |
+          git config --unset-all http.https://github.com/.extraheader
           git clone https://snhansen:$TOKEN@github.com/snhansen/snhansen.github.io.git --branch main --single-branch main
           cd main
           git rm -r *
