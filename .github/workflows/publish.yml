@@ -30,7 +30,7 @@ jobs:
           echo "lol"
           git commit -m "Publish website files" --amend
           echo "lol"
-          git config --unset-all http.https://github.com/.extraheader
+          git config --unset-all --local http.https://github.com/.extraheader
           git push -f --verbose
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
