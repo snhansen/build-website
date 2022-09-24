@@ -20,18 +20,18 @@ jobs:
           quarto render
       - name: Publish to GitHub pages
         run: |
-          git clone https://snhansen:$TOKEN2@github.com/snhansen/snhansen.github.io.git --branch main --single-branch main
+          git clone https://snhansen:$TOKEN@github.com/snhansen/snhansen.github.io.git --branch main --single-branch main
           cd main
           git rm -r *
           cp ../www/_site/* -r .
           git config --local user.email "stefannygaardhansen@gmail.com"
           git config --local user.name "Stefan Nygaard Hansen"
           git add .
-          echo "lol"
+          echo "lol1"
           git commit -m "Publish website files" --amend
-          echo "lol"
-          git config --unset-all --local http.https://github.com/.extraheader
-          echo "lol"
+          echo "lol2"
+          git config --unset-all http.https://github.com/.extraheader --verbose
+          echo "lol3"
           git push -f --verbose
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
