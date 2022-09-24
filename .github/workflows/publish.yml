@@ -20,7 +20,7 @@ jobs:
           quarto render
       - name: Publish to GitHub pages
         run: |
-          git clone https://snhansen:$TOKEN@github.com/snhansen/snhansen.github.io.git --branch main --single-branch main
+          git clone https://snhansen:$TOKEN2@github.com/snhansen/snhansen.github.io.git --branch main --single-branch main
           cd main
           git rm -r *
           cp ../www/_site/* -r .
