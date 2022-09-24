@@ -18,7 +18,7 @@ jobs:
         run: |
           cd www
           quarto render
-      - name: Publish to GitHub pages
+      - name: Publish to GitHub website repo
         run: |
           git clone https://snhansen:$TOKEN@github.com/snhansen/snhansen.github.io.git --branch main --single-branch main
           cd main
