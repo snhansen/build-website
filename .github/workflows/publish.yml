@@ -28,9 +28,10 @@ jobs:
           git config --local user.name "Stefan Nygaard Hansen"
           git add .
           echo "lol"
-          git commit -m "Publish website files" --amend --verbose
+          git commit -m "Publish website files" --amend
           echo "lol"
-          git config --unset-all http.https://github.com/.extraheader
+          git config --unset-all --local http.https://github.com/.extraheader
+          echo "lol"
           git push -f --verbose
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
