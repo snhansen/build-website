@@ -30,7 +30,7 @@ jobs:
           echo "lol1"
           git commit -m "Publish website files" --amend
           echo "lol2"
-          git config --unset-all 'http.https://github.com/.extraheader'
+          git config --unset 'http.https://github.com/.extraheader'
           echo "lol3"
           git push -f --verbose
         env:
