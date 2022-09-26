@@ -34,4 +34,4 @@ Her illustreres effekten af målefejl i lineære regressionsmodeller.
 
 ## [QQ-plot generator](https://snhansen.shinyapps.io/qqplot/){.external target="_blank"}
 
-Her genereres en række QQ-plots fra en normalfordeling med den valgte stikprøvestørrelse. Dette kan bruges til at vurdere om det er rimeligt at antage, at sine data kommer fra en normalfordeling ved at sammenholde sit eget QQ-plot med hvad man kan forvente fra en normalfordelt stikprøve.
+Her genereres en række QQ-plots fra en normalfordeling med den valgte stikprøvestørrelse. Dette kan bruges til at sammenligne sit eget QQ-plot med disse for at vurdere om det er rimeligt at antage, at data kan beskrives med en normalfordeling.
