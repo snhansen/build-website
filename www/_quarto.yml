@@ -2,13 +2,15 @@ project:
   type: website
 
 website:
-  title: "website"
+  title: "Stefan"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Hjem
       - href: about.qmd
         text: Om
+      - href: shinyapps.qmd
+        text: Shiny apps
       - href: consultancy.qmd
         text: Rådgivning
       
@@ -19,6 +21,8 @@ format:
     css: styles.css
     toc: true
     email-obfuscation: javascript
+    #link-external-newwindow: true
+
 
 
 

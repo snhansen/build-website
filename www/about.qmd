@@ -11,4 +11,4 @@ about:
       href: https://github.com/snhansen
 ---
 
-About this site heh
+Jeg er p.t. ansat som lektor i biostatistik på Institut for Folkesundhed, Aarhus Universitet.
