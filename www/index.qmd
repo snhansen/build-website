@@ -2,6 +2,6 @@
 title: "Hjem"
 ---
 
-Velkommen til min side. :-pPp
+Velkommen til min side.
 
 
