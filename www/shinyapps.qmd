@@ -21,7 +21,7 @@ Her illustreres effekten af målefejl i lineære regressionsmodeller.
 #### Fremgangsmåde:
 * Start med at generere et datasæt under fanen **Data generation**. Her skal man specificere den antagede (sande) sammenhæng mellem X og Y samt antallet af observationer.
 * Målefejl styres via fanerne **Measurement error in X/Y**. Her kan man introducere en målefejl i både X og Y. Under *Measurement error (mean)* og *Measurement error (sd)* introduceres en systematisk henholdsvis tilfældig målefejl på X/Y-værdien. Dette skal forstås således, at der lægges en normalfordelt variabel til den oprindelige måling med middelværdi `mean` og spredning `sd`. Under **Preferences** kan skal man vælge *Measurement error: On* for aktivere målefejlen(e).
-* Man kan under *Measurement error applied to X/Y-values* bestemme om målefejlen kun skal pålægges en delmængde af observationer.
+* Man kan under *Measurement error applied to X/Y-values* bestemme om målefejlen kun skal pålægges en delmængde af observationerne.
 * I grafen vises de oprindelige datapunkter, datapunkterne behæftet med målefejl samt de estimerede bedste rette linjer for de to datasæt. Estimaterne for begge datasæt findes også under fanen **Results**. Ønsker at man se effekten af målefejlen(e) for de enkelte observationer, kan man forbinde observationerne ved *Connet observations: On* under **Preferences**.
 * Har mange mange observationer kan man fordel justere på gennemsigtigheden af punkterne og/eller forbindelseslinjerne på grafen under **Preferences** via *Transparency*-funktionerne. Man kan også helt vælge punkterne fra under *Observations: Show/Hide*.
 
