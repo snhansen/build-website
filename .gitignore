@@ -1,0 +1,8 @@
+www/_site/
+www/.quarto/
+www/.Rproj.user
+www/*.Rproj
+www/.Rhistory
+www/.RData
+www/.Ruserdata
+www/.gitignore
