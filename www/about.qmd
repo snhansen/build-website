@@ -11,4 +11,4 @@ about:
       href: https://github.com/snhansen
 ---
 
-Jeg er p.t. ansat som lektor i biostatistik på Institut for Folkesundhed, Aarhus Universitet.
+Jeg har siden 2020 været ansat som lektor i biostatistik på Institut for Folkesundhed, Aarhus Universitet.
