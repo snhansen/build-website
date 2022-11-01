@@ -2,4 +2,13 @@
 title: "Statistisk rådgivning"
 ---
 
-Ønsker du statistisk rådgivning til dit projekt eller hjælp til specifikke statistiske analyser, så send mig en <a href="mailto:stefannh@outlook.com">mail</a>.
+Ønsker du statistisk rådgivning til dit projekt eller hjælp til specifikke statistiske analyser eller datamanagement, så send mig en mail på stefannh *at* outlook *dot* com
+
+Jeg tilbyder blandt andet
+
+* Statistisk rådgivning til udarbejdelse af analyseplan herunder valg af design, valg af statistiske analyser samt styrkeberegning.
+* Statistisk analyse af konkrete data herunder udarbejdelse af tabeller og figurer.
+* Datamanagement og oprensning af datasæt.
+* Udvikling af interaktive web applikationer (Shiny apps).
+
+Jeg arbejder primært i R, Stata og Python.

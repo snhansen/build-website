@@ -2,36 +2,36 @@
 title: "Shiny apps"
 ---
 
-Her kan du finde nogle Shiny apps som jeg har lavet til brug i undervisningen.
+Her kan du finde nogle Shiny apps som jeg har lavet til brug i undervisningssammenhænge.
 
-## [Selektion og lineær regression](https://snhansen.shinyapps.io/selection/){.external target="_blank"}
+## [Selektion i lineære regressionsmodeller](https://apps.biostat.au.dk/stefan/selection/){.external target="_blank"}
 
 Her illustreres effekten af selektion i lineære regressionsmodeller.
 
 #### Fremgangsmåde:
-* Generér et datasæt under fanen **Data generation**. Her skal man specificere den antagede (sande) sammenhæng mellem X og Y samt antallet af observationer.
-* Selektion styres via fanen **Selection**. Her kan man lave en selektion på både X- og Y-akse og selektionen foregår således, at det kun er observationer inden for det valgte område som medtages. Under **Preferences** kan skal man vælge *Selection: On* for at aktivere selektionen.
+* Generér et datasæt under fanen **Data generation**. Her skal man specificere den antagede (sande) sammenhæng mellem X og Y, spredningen på fejlleddet samt antallet af observationer.
+* Selektionen styres via fanen **Selection**. Her kan man lave en selektion på både X- og Y-akse og selektionen foregår således, at det kun er observationer inden for det valgte område som medtages. Under **Preferences** skal man vælge *Selection: On* for at aktivere selektionen.
 * I grafen vises de oprindelige datapunkter, de selekterede datapunkter samt de estimerede bedste rette linjer for de to datasæt. Estimaterne for begge datasæt findes også under fanen **Results**.
-* Har mange mange observationer kan man fordel justere på gennemsigtigheden af punkterne på grafen under **Preferences** via *Transparency*-funktionen. Man kan også helt vælge punkterne fra under *Observations: Show/Hide*.
+* For store datasæt kan man med fordel justere gennemsigtigheden af punkterne på grafen via *Transparency*-funktionen under **Preferences**  Man kan også helt vælge punkterne fra under *Observations: Show/Hide*.
 
-## [Målefejl og lineær regression](https://snhansen.shinyapps.io/measurementerror/){.external target="_blank"}
+## [Målefejl i lineære regressionsmodeller](https://apps.biostat.au.dk/stefan/measurementerror/){.external target="_blank"}
 
-Her illustreres effekten af målefejl i lineære regressionsmodeller.
+Her illustreres effekten af forskellige typer af målefejl i lineære regressionsmodeller.
 
 #### Fremgangsmåde:
-* Start med at generere et datasæt under fanen **Data generation**. Her skal man specificere den antagede (sande) sammenhæng mellem X og Y samt antallet af observationer.
-* Målefejl styres via fanerne **Measurement error in X/Y**. Her kan man introducere en målefejl i både X og Y. Under *Measurement error (mean)* og *Measurement error (sd)* introduceres en systematisk henholdsvis tilfældig målefejl på X/Y-værdien. Dette skal forstås således, at der lægges en normalfordelt variabel til den oprindelige måling med middelværdi `mean` og spredning `sd`. Under **Preferences** kan skal man vælge *Measurement error: On* for aktivere målefejlen(e).
-* Man kan under *Measurement error applied to X/Y-values* bestemme om målefejlen kun skal pålægges en delmængde af observationerne.
-* I grafen vises de oprindelige datapunkter, datapunkterne behæftet med målefejl samt de estimerede bedste rette linjer for de to datasæt. Estimaterne for begge datasæt findes også under fanen **Results**. Ønsker at man se effekten af målefejlen(e) for de enkelte observationer, kan man forbinde observationerne ved *Connet observations: On* under **Preferences**.
-* Har mange mange observationer kan man fordel justere på gennemsigtigheden af punkterne og/eller forbindelseslinjerne på grafen under **Preferences** via *Transparency*-funktionerne. Man kan også helt vælge punkterne fra under *Observations: Show/Hide*.
+* Generér et datasæt under fanen **Data generation**. Her skal man specificere den antagede (sande) sammenhæng mellem X og Y, spredningen på fejlleddet samt antallet af observationer.
+* Målefejlen(e) styres via fanerne **Measurement error in X/Y**. Her kan man introducere en målefejl i både X og Y. Under *Measurement error (mean)* og *Measurement error (sd)* introduceres en systematisk henholdsvis tilfældig målefejl på X/Y-værdien. Dette skal forstås således, at der lægges en normalfordelt variabel til den oprindelige måling med middelværdi `mean` og spredning `sd`. Under **Preferences** skal man vælge *Measurement error: On* for aktivere målefejlen(e).
+* Under *Measurement error applied to X/Y-values* kan det bestemmes om målefejlen kun skal pålægges en delmængde af observationerne.
+* I grafen vises de oprindelige datapunkter, datapunkterne behæftet med målefejl samt de estimerede bedste rette linjer for de to datasæt. Estimaterne for begge datasæt findes også under fanen **Results**. Ønsker at man se effekten af målefejlen(e) for de enkelte observationer, kan man forbinde observationerne ved *Connect observations: On* under **Preferences**.
+* For store datasæt kan man med fordel justere på gennemsigtigheden af punkterne og/eller forbindelseslinjerne på grafen under **Preferences** via *Transparency*-funktionerne. Man kan også helt vælge punkterne fra under *Observations: Show/Hide*.
 
 
 #### Tips:
-* En tilfældig målefejl svarer til `mean = 0` og `sd > 0`.
+* En tilfældig (ikke-systematisk) målefejl svarer til `mean = 0` og `sd > 0`.
 * En systematisk målefejl svarer til `mean != 0`. 
 * En systematisk målefejl hvor `sd = 0` svarer til, at alle observationer pålægges den samme målefejl givet ved `mean`. Det er nok sjældent realistisk i praksis.
 
 
-## [QQ-plot generator](https://snhansen.shinyapps.io/qqplot/){.external target="_blank"}
+## [QQ-plot generator](https://apps.biostat.au.dk/stefan/qqplot/){.external target="_blank"}
 
-Her genereres en række QQ-plots fra en normalfordeling med den valgte stikprøvestørrelse. Dette kan bruges til at sammenligne sit eget QQ-plot med disse for at vurdere om det er rimeligt at antage, at data kan beskrives med en normalfordeling.
+Her genereres en række QQ-plots fra en normalfordeling med den valgte stikprøvestørrelse. Dette kan bruges til at sammenligne sit eget QQ-plot med disse for at vurdere om det er rimeligt at antage, at et givet datasæt kan beskrives med en normalfordeling.
