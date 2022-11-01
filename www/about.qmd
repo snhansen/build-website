@@ -28,5 +28,5 @@ Jeg er ansat som lektor i biostatistik på Institut for Folkesundhed, Aarhus Uni
 * 2017: PhD i biostatistik, Aarhus Universitet.
 * 2012: MSc i statistik, Aarhus Universitet.
 
-My Cirriculum Vitae can be found <a href="cv_stefan_hansen.pdf">here</a>.
+Mit CV kan hentes <a href="cv_stefan_hansen.pdf">her</a>.
 
