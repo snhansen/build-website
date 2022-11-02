@@ -14,6 +14,8 @@ about:
       href: https://twitter.com/stefanforfanden
 ---
 
+# Om mig
+
 Jeg er ansat som lektor i biostatistik på Institut for Folkesundhed, Aarhus Universitet.
 
 ## Erfaring
@@ -28,5 +30,7 @@ Jeg er ansat som lektor i biostatistik på Institut for Folkesundhed, Aarhus Uni
 * 2017: PhD i biostatistik, Aarhus Universitet.
 * 2012: MSc i statistik, Aarhus Universitet.
 
-Mit CV kan hentes <a href="cv_stefan_hansen.pdf">her</a>.
+## CV
+
+* Kan hentes <a href="cv_stefan_hansen.pdf">her</a>.
 
