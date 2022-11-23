@@ -6,3 +6,4 @@ www/.Rhistory
 www/.RData
 www/.Ruserdata
 www/.gitignore
+www/*.html
