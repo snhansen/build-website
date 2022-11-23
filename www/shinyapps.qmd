@@ -32,6 +32,17 @@ Her illustreres effekten af forskellige typer af målefejl i lineære regression
 * En systematisk målefejl hvor `sd = 0` svarer til, at alle observationer pålægges den samme målefejl givet ved `mean`. Det er nok sjældent realistisk i praksis.
 
 
+## [Brug af splines i lineære regressionsmodeller](https://apps.biostat.au.dk/stefan/splines/){.external target="_blank"}
+
+Her illustreres forskellen mellem at modellere sammenhængen mellem kontinuert udfald og kontinuert forklarende variabel som lineær, kategorisk og ved hjælp af splines.
+
+#### Fremgangsmåde:
+* Generér et datasæt under fanen **Data generation**. Her skal man specificere den sande sammenhæng mellem X og Y. Dette kan gøres ved at vælge en af de prespecificerede muligheder eller man kan indtaste sammenhængen selv. Hvis man selv vil indtaste sammenhængen skal det specificeres som en funktion af `x` med R-syntax, eksempelvis: `x*exp(sqrt(x))`. Antallet af observationer, residualspredning samt maksimum og minimum x-værdi skal også specificeres.
+* Når datasættet er genereret, vil tre modeller automatisk blive fittet, hvor X indgår lineært, kategorisk og via en restricted cubic spline. 
+* Under fanen **Model fitting** kan man ændre antallet af kategorier eller selv specificere kategorierne og man kan ændre antallet af knuder eller selv sætte knudepunkterne i spline-fittet.
+* Under fanen **Visuals** kan man fravælge nogle af komponenterne i plottet.
+
+
 ## [QQ-plot generator](https://apps.biostat.au.dk/stefan/qqplot/){.external target="_blank"}
 
 Her genereres en række QQ-plots fra en normalfordeling med den valgte stikprøvestørrelse. Dette kan bruges til at sammenligne sit eget QQ-plot med disse for at vurdere om det er rimeligt at antage, at et givet datasæt kan beskrives med en normalfordeling.
