@@ -9,9 +9,6 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/snhansen
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/stefanforfanden
 ---
 
 # Om mig
@@ -32,5 +29,9 @@ Jeg er ansat som lektor i biostatistik på Institut for Folkesundhed, Aarhus Uni
 
 ## CV
 
-* Kan hentes <a href="cv_stefan_hansen.pdf">her</a>.
+* Kan hentes <a href="cv-stefan-nygaard-hansen.pdf">her</a>.
+
+## Liste over publikationer
+
+* Kan hentes <a href="list-of-publications.pdf">her</a>.
 

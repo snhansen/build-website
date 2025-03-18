@@ -10,5 +10,6 @@ Jeg tilbyder blandt andet
 * Statistisk analyse af konkrete data herunder udarbejdelse af tabeller og figurer.
 * Datamanagement og oprensning af datasæt.
 * Udvikling af interaktive web applikationer (Shiny apps).
+* Kurser i brugen af R, Quarto eller statistiske metoder.
 
 Jeg arbejder primært i R, Stata og Python.
